@@ -1,0 +1,34 @@
+
+    <div class="row_free-testing">
+        <div class="for-flex">
+            <input
+            type="checkbox"
+            id="c1"
+            name="cc"
+            >
+
+            <label
+            for="c1"
+            class="free-testing-text"
+            >
+                <span></span>
+                Бесплатный пробный период 14 дней
+            </label>
+
+            <span 
+                class="span"
+                (click)="clicker()"
+                [ngClass]="{spanClose:is_show}"
+            >
+            </span>
+        </div>
+
+        <div
+            class="dashed-text"
+            [ngClass]="{showBlock:is_show}"
+        >
+            <p class="showing-text">
+                Часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной рыбой для текстов на латинице с начала XVI века. В то время некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem Ipsum для распечатки
+            </p>
+        </div>
+    </div>

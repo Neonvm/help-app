@@ -1,0 +1,243 @@
+<div
+        class="page-content-shape"
+></div>
+
+<div
+        class="page-content-shape-ruler"
+></div>
+
+<div class="page-fixedcontent">
+    <div class="page-fixedheader container-wmenu vps-fixed-header">
+        <div class="bg-corner"></div>
+    </div>
+</div>
+
+<div class="page-content">
+    <div class="container-wmenu page-tabs-wrapper">
+        <div class="container-content">
+            <div class="page-tabs-header vps">
+                <div class="page-tabs-header-title">
+                    <h1
+                    >Уверенность в стабильности.</h1>
+
+                    <h2
+                    >
+                        Наши удалённые серверы – Ваши ближайшие помощники.
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-content-solid">
+
+            <!-- START bout-us_top -->
+            <app-features-top></app-features-top>
+            <!-- END bout-us_top -->
+
+            <section class="page-products">
+                <h2 id="tarifs">Тарифы VPS</h2>
+
+                <div style="display: inline;">
+
+                    <div class="page-popular-plans-wrapper">
+
+                        <div class="page-popular-plans-controls">
+                            <div class="select-country mselect">
+                                <select
+                                        id="h_country"
+                                        name="h_country"
+                                        class="mselect__select">
+                                    <option value="NLD">Нидерланды
+                                    </option>
+
+                                    <option value="RUS">Россия</option>
+
+                                    <option value="USA">США</option>
+                                </select>
+                            </div>
+
+                            <div class="select-disk switch">
+                                        <span
+                                                class="switch-option"
+                                                id="select-disk-hdd"
+                                        >HDD</span>
+
+                                <span
+                                        class="switch-option switch-option-selected"
+                                        id="select-disk-ssd"
+                                >SSD</span>
+                            </div>
+
+                            <div class="select-discount switch">
+                                        <span
+                                                class="switch-option"
+                                                id="select-discount-month"
+                                        >Месяц</span>
+
+                                <span
+                                        class="switch-option"
+                                        id="select-discount-quarter"
+                                >3 Месяца - 5%</span>
+
+                                <span
+                                        class="switch-option"
+                                        id="select-discount-half"
+                                >Полгода - 10%</span>
+
+                                <span
+                                        class="switch-option switch-option-selected"
+                                        id="select-discount-year"
+                                >Год - 15%</span>
+                            </div>
+
+                            <div class="select-discount mselect">
+                                <select
+                                        id="h_discount"
+                                        name="h_discount"
+                                        class="mselect__select"
+                                >
+                                    <option value="month">Месяц</option>
+
+                                    <option value="quarter">3 Месяца -
+                                        5%
+                                    </option>
+
+                                    <option value="half">Полгода - 10%
+                                    </option>
+
+                                    <option value="year">Год - 15%
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="page-popular-plans">
+                            <div class="list-vps">
+                                <div *ngFor="let item of [1,2,3,4,5]" class="row row-vps">
+                                    <div class="cols">
+                                        <div class="col col-lg-3 col-sm-12 col-title">
+                                            <div class="page-popular-plans-feature">
+                                                <div class="feature-name plan-title">
+                                                    Start - Linux SSD
+                                                </div>
+
+                                                <div class="feature-desc">
+                                                    Осталось
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col col-lg-2 col-sm-3 col-cpu">
+                                            <div class="page-popular-plans-feature">
+                                                <div class="feature-name">
+                                                    2.50 GHz
+                                                </div>
+
+                                                <div class="feature-desc">
+                                                    процессор
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col col-lg-2 col-sm-3 col-ram">
+                                            <div class="page-popular-plans-feature">
+                                                <div class="feature-name">
+                                                    512 Mb
+                                                </div>
+
+                                                <div class="feature-desc">
+                                                    память
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col col-lg-1 col-sm-2 col-disk">
+                                            <div class="page-popular-plans-feature">
+                                                <div class="feature-name">10
+                                                    Gb
+                                                </div>
+
+                                                <div class="feature-desc">
+                                                    диск
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col col-lg-2 col-sm-none col-platform">
+                                            <div class="page-popular-plans-feature">
+                                                <div class="feature-name">
+                                                    KVM
+                                                </div>
+
+                                                <div class="feature-desc">
+                                                    Платформа
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col col-lg-2 col-sm-4 col-price">
+                                            <div class="page-popular-plans-feature">
+                                                <div class="feature-name price-title">
+                                                    5.00 USD
+                                                </div>
+
+                                                <div class="feature-desc">
+                                                    60в год
+                                                </div>
+                                            </div>
+
+                                            <div>
+                                                <a class="btn" (click)="goToPricing($event)">НАСТРОИТЬ</a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="cols3">
+                                        <div class="text-orange">
+                                            <p class="text">
+                                                <span>Акция:</span>
+
+                                                до 21 Марта 2018
+                                                дополнительная скидка на
+                                                годовую подписку 20%
+                                            </p>
+
+                                            <p class="text-centr">
+                                                17 дней 10 : 34 : 15
+
+                                                <br>
+
+                                                <span>ОСТАЛОСЬ ВРЕМЕНИ</span>
+                                            </p>
+
+                                            <div class="img_plans"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <app-collapse-box class="vps-page"></app-collapse-box>
+            
+
+            <!-- START about-us_bottom -->
+            <div class="transparent-sections">
+                <app-features-short></app-features-short>
+                <hr>
+                <app-features-block></app-features-block>
+                <app-comments></app-comments>
+                <app-help-and-contacts></app-help-and-contacts>
+                <hr class="stick-bottom">
+                <section class="footer_hosting">
+                        <p>Inferno Solution © 2017 ⁄ #NT Solution LLP,
+                            Suite 4084, 10 Great Russel Streach, London &nbsp;
+                            ⁄<a href="#">Правила Сервиса</a> ⁄ ...</p>
+                </section>
+            </div>
+            <!-- END about-us_bottom -->
+        </div>
+    </div>
+</div>

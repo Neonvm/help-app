@@ -1,0 +1,23 @@
+.expanded .text_show{
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 0;
+    transition: 1s;
+}
+.page-question span{
+    z-index: 123;
+    position: absolute;
+    background-color: #F7F7F7;
+}
+
+.page-question-body {
+    width: 60%;
+    margin-left: 30px;
+    background-color: #F7F7F7;
+    transition:1s;
+    margin-top: -100%;
+  }
+  .page-question-header{
+    position: inherit;
+    background-color: #F7F7F7;
+  }

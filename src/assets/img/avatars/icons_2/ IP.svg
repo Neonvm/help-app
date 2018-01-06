@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>UI Icons / IP Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Icons-/-IP-Copy">
+            <rect id="Rectangle-2" fill="#231F20" transform="translate(20.000000, 29.500000) rotate(-270.000000) translate(-20.000000, -29.500000) " x="12.5" y="28.5" width="15" height="2" rx="1"></rect>
+            <rect id="Rectangle-2-Copy" fill="#231F20" transform="translate(8.000000, 37.000000) rotate(-180.000000) translate(-8.000000, -37.000000) " x="1" y="36" width="14" height="2" rx="1"></rect>
+            <rect id="Rectangle-2-Copy-2" fill="#231F20" transform="translate(32.000000, 37.000000) rotate(-180.000000) translate(-32.000000, -37.000000) " x="25" y="36" width="14" height="2" rx="1"></rect>
+            <polygon id="Rectangle" stroke="#231F20" stroke-width="2" fill="#FCC238" stroke-linecap="round" stroke-linejoin="round" points="11 11 20.026123 6 29 11 29 26 11 26"></polygon>
+            <circle id="Oval-9-Copy-3" fill="#231F20" cx="20" cy="37" r="3"></circle>
+        </g>
+    </g>
+</svg>

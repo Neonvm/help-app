@@ -1,0 +1,14 @@
+<div class="page-wrapper page_index_wraper"
+     [ngClass]="{'show-content show-menu':!is_main_page, 'show-rollout show-overlay':is_pricing} ">
+
+    <app-main-top-line></app-main-top-line>
+    <app-main-index-content></app-main-index-content>
+    <app-main-menu></app-main-menu>
+
+    <router-outlet></router-outlet>
+
+    <app-main-top-menu></app-main-top-menu>
+    <app-back-button></app-back-button>
+    <app-main-footer></app-main-footer>
+    <app-helper-popup></app-helper-popup>
+</div>

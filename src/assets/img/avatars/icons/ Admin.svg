@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>UI Icons / Admin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="UI-Icons-/-Admin" stroke="#231F20" stroke-width="2">
+            <path d="M33,24 L33,43 C33,44.1045695 32.1045695,45 31,45 L9,45 C7.8954305,45 7,44.1045695 7,43 L7,9 C7,7.8954305 7.8954305,7 9,7 L31,7 C32.1045695,7 33,7.8954305 33,9 L33,24 Z" id="Shape" fill="#FCC238" transform="translate(20.000000, 26.000000) rotate(-270.000000) translate(-20.000000, -26.000000) "></path>
+            <path d="M13,25 L17,25" id="Line"></path>
+            <polyline id="Path-5" points="7.05163574 19.0012207 10.0362779 21.9858629 6.97863314 25.0435076"></polyline>
+        </g>
+    </g>
+</svg>

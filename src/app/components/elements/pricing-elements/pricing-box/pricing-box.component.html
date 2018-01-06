@@ -1,0 +1,21 @@
+<div class="checkboxs">
+    <div *ngFor='let item of items' (click)='check(item)'>
+        <p class="prize">
+            {{item.price}}
+            <span class="mounth">{{item.moneyOff}}</span>
+        </p>
+
+        <p class="mounth">{{item.period}}</p>
+
+        <input
+            type="radio"
+            name="raz"
+            class="payt1"
+            [value]="item.id"
+            [checked]="current_index === item.id"
+        >
+
+        <label for="payt1"></label>
+        <div for="payt_1"></div>
+    </div>
+</div>

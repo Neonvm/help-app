@@ -1,0 +1,106 @@
+.checkboxs{
+  margin-top: 20px;
+  width: 555px;
+  margin-left: 35px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.checkboxs div{
+  background-color: #fff;
+  width: 130px;
+  height: 74px;
+  border: 2px solid #dcdcdc;
+  cursor: pointer;
+}
+.checkboxs div .prize{
+  margin-left: 7px;
+  margin-right: 3px;
+  margin-top: 8px;
+  margin-bottom: 0;
+  font-family: 'Whitney-Bold', 'PT Sans', Arial, sans-serif;;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #231f20;
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkboxs div .mounth{
+  margin-left: 7px;
+  margin-bottom: 3px;
+  margin-top: 0;
+  font-family: 'Whitney-Medium', 'PT Sans', Arial, sans-serif;
+  font-size: 11px;
+  line-height: 1.67;
+  color: #8b7b7f;
+}
+ .checkboxs div input{
+  margin-left: 7px;
+}
+.checkboxs div .payt1{
+  display: none;
+}
+
+.checkboxs div [for="payt1"] {
+  position: relative;
+  display: block;
+  width: 14px;
+  height: 14px;
+  border-radius: 100%;
+  background: #e9e8e8;
+  cursor: pointer;
+}
+
+.checkboxs div [for="payt1"]:after{
+  content: "";
+  position: absolute;
+  left: 28%;
+  top: 29%;
+  width: 18%;
+  height: 20%;
+  border-radius: 100%;
+  background: #e9e8e8;
+}
+
+.checkboxs div [for="payt1"]:before{
+  content: "";
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  bottom: 8%;
+  left: 9%;
+  border-radius: 100%;
+  background: #e9e8e8;
+}
+
+.checkboxs div .payt1:checked ~ [for="payt1"]:before {
+  background: #fcc238;
+}
+
+.checkboxs div .payt1:checked ~ [for="payt1"]:after {
+  background: #231f20;
+  position: absolute;
+  border: 2px solid #231f20;
+  // margin-left: -2px;
+  // margin-top: -2px;
+  border-radius: 99%;
+}
+.payt1:checked ~ [for="payt_1"] {
+    border: 2px solid #fec137;
+    background-color: transparent;
+    margin-top: -66px;
+    display: block;
+    margin-left: -3px;
+  }
+  
+  [for="payt_1"] {
+    display: none;
+  }
+
+.checkboxs div label{
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+}

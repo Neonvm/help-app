@@ -1,0 +1,17 @@
+<div class="page-panel">
+    <div class="page-panel-left-container">
+        <div (click)="appStatus.onOpenHelper()" class="page-panel-helper">
+            Быстрый заказ
+        </div>
+    </div>
+    <div class="page-panel-right-container">
+        <div class="page-panel-phone">Phone: 1-800-101-111</div>
+        <div class="page-panel-support">
+            <a href="#">Поддержка 24/7</a>
+        </div>
+        <div (click)="zopim.openChat()" class="page-panel-chat"
+             [ngClass]="{online: is_online_chat, hide:!is_load_chat}">
+            Отдел продаж
+        </div>
+    </div>
+</div>

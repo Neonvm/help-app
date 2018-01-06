@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>UI Icons / DDOS Protection White</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Icons-/-DDOS-Protection-White">
+            <path d="M27.9129956,32.8796903 C25.8461113,35.3714809 23.2529292,37.532449 20,39 L20,39 C16.91934,37.600994 14.429967,35.5718332 12.4187932,33.2266411 M6.70926857,23.0523702 C4.23815992,16.1977618 4,10 4,10 L20,1 L36,10 C36,10 35.7921143,16.1312437 33.3698025,22.9417787" id="Shape" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M11.2220766,23.0283621 C9.18622094,17.9808335 9,13.1578947 9,13.1578947 L20,7 L31,13.1578947 C31,13.1578947 30.841594,17.8074606 28.9151313,22.7539506" id="Shape-Copy" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle-path" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" x="1" y="23" width="38" height="10" rx="2"></rect>
+            <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="4" y="26" width="15" height="2"></rect>
+            <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="21" y="26" width="4" height="2"></rect>
+        </g>
+    </g>
+</svg>

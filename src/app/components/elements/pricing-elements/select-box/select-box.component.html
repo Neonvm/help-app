@@ -1,0 +1,11 @@
+
+    <h3 class="price">{{price}}</h3> 
+        <select> 
+            <option 
+                *ngFor="let item of items" 
+                value= {{item.id}}
+             >
+                    {{ item.select }}
+            </option>
+        </select> 
+    <p>{{text}}<span class="caret"></span></p> 

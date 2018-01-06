@@ -1,0 +1,46 @@
+<div  class="short-line second_row">
+        <h3  class="price">16 USD</h3>
+
+        <select  class="ng-tns-c8-1">
+            <option class="ng-tns-c8-1" value="1">{{value}} +</option>
+        </select>
+
+        <p class="ng-tns-c8-1" >
+            PUBLIC IP
+
+            <span class="caret"></span>
+        </p>
+          <div class="wrapper-slider" [ngClass]="{hide_slide:is_hide}">  
+            <app-range-slider
+                class="app-combo-select-slider"
+                [items]="[
+                {title:'1', id:1},
+                {title:'2', id:2},
+                {title:'3', id:3},
+                {title:'4', id:4},
+                {title:'5', id:5},
+                {title:'6', id:6},
+                {title:'7', id:7},
+                {title:'8', id:8,bold:true},
+                {title:'9', id:9,bold:true},
+                {title:'10', id:10,bold:true}
+                ]"        
+                [default]="4"
+            >
+            </app-range-slider>    
+            <div class="input-row">
+                    <input 
+                    id="number" 
+                    type="number" 
+                    min="1" 
+                    max="32"
+                    [(ngModel)]="value"
+                    pattern="\[0123456789]*"
+                    >
+                    <p>Впишите необходимое количество. До 32 IP.</p>
+            </div>
+            <p class="text-slider">Включено в тариф</p>
+          </div>   
+</div>               
+    
+              

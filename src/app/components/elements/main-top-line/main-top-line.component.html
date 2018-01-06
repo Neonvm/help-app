@@ -1,0 +1,73 @@
+<div class="page-header page_index_header">
+    <div class="is-logo-small">
+        <a routerLink="/">
+            <img src="assets/img/logo/start.svg" alt="Inferno Solutions"
+                 class="page-global_logo">
+            <img src="assets/img/logo/mid.svg" alt="Inferno Solutions"
+                 class="page-global_logo-centr " id="Animation">
+            <img src="assets/img/logo/end.svg" alt="Inferno Solutions"
+                 class="is-hosting">
+        </a>
+        <span [@scrollap]="stats"
+              class="page-header-title">{{logo_text}}</span>
+    </div>
+    <div class="page-header-options">
+        <div class="page-header-options-login"></div>
+        <div class="page-header-options-lang ">
+            <ul class="menu dropit">
+                <li class="dropit-trigger">
+                    <a routerlink="#" id="a_lang">ru</a>
+                    <ul class="dropit-submenu">
+                        <li><a routerlink="/en/">English</a>
+                        </li>
+                        <li><a routerlink="/">Russian</a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <a class="page-header-options-basket" routerlink="/basket">
+            <div class="prod-count" id="prod-count">0</div>
+        </a>
+        <div class="page-header-options-email" id="rh_state_email"></div>
+        <div class="page-header-options-mobile-menu" id="mobile-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <div class="page-header-options-mobile-menu-close"
+             id="mobile-menu-close">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- Для формы смены текущего языка -->
+    <form id="set_lang_form" method="POST">
+        <input type="hidden" name="token" value="token">
+        <input type="hidden" id="set_lang" name="set_lang" value="">
+    </form>
+
+    <!-- Форма перехода в cp.inferno.name -->
+    <form id="cp_form" method="POST" action="/">
+        <input id="cp_hidden" type="hidden" name="val" value="">
+    </form>
+</div>
+
+<div class="login-form">
+    <span class="login-form-title">Вход</span>
+    <div class="login-form-btn-close">+</div>
+    <form action="/panel/login" class="form-login" method="POST">
+        <input type="hidden" name="action_login" value="1">
+        <input type="hidden" name="_csrf_token"
+               value="U4fDoHxVR3c6wZA-8ChNHXtYTH0R4okbldHwmgeoXm8">
+        <input type="email" name="_email" placeholder="EMAIL">
+        <input type="password" name="_password" placeholder="ПАРОЛЬ">
+        <button type="submit" class="btn login-btn">ВОЙТИ В СИСТЕМУ</button>
+    </form>
+    <a routerlink="/registration"
+       class="registration-access">Регистрация</a>
+    <a routerlink="/restore"
+       class="restore-access">Восстановить
+        доступ</a>
+</div>

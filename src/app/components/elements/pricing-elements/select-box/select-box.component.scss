@@ -1,0 +1,112 @@
+  :host(.long-line) {
+  float: left;
+  margin-left: 35px;
+  width: 370px;
+  border: 1px solid #eaeaea;
+  height: 43px;
+  .price{
+    font-family: 'Whitney-Medium', 'PT Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.67;
+    color: #8b7b7f;
+    margin: 0;
+    margin-left: 302px;
+    position: absolute;
+    text-align: right;
+    width: 60px;
+  }
+  select{
+    width: 370px;
+    padding-top: 5px;
+    padding-left: 12px;
+    background-color: #f7f7f7;
+    appearance: none;
+    font-family: 'Whitney-Semibold';
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: left;
+    color: #231f20;
+    border: none;
+    padding-right: 158px !important;
+    padding-bottom: 17px;
+  }
+  p{
+    padding-left: 12px;
+    margin: -19px 0 0 0;
+    font-family: 'Whitney-Medium', 'PT Sans', Arial, sans-serif;;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: left;
+    color: #8b7b7f;
+  }
+  .caret{
+    content: '';
+    position: relative;
+    float: right;
+    margin-right: 4px;
+    margin-top: 8px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 5px 5px;
+    border-color: transparent transparent #fec137 transparent;
+  }
+}
+:host(.short-line) {
+  margin-left: 9px;
+  float: left;
+  width: 178px;
+  border: 1px solid #eaeaea;
+  height: 43px;
+  .price{
+    font-family: 'Whitney-Medium', 'PT Sans', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.67;
+    color: #8b7b7f;
+    margin: 0;
+    margin-left: 110px;
+    position: absolute;
+    text-align: right;
+    width: 60px;
+  }
+  select{
+    width: 178px;
+    appearance: none;
+    padding-top: 5px;
+    padding-left: 12px;
+    padding-right: 26px !important;
+    background-color: #f7f7f7;
+    font-family: 'Whitney-Semibold';
+    font-size: 16px;
+    line-height: 1.25;
+    text-align: left;
+    color: #231f20;
+    border: none;
+    padding-bottom: 17px;
+  }
+  .caret{
+    content: '';
+    position: relative;
+    float: right;
+    margin-top: 8px;
+    margin-right: 4px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 5px 5px;
+    border-color: transparent transparent #fec137 transparent;
+  }
+  p{
+    padding-left: 12px;
+    margin: -19px 0 0 0;
+    font-family: 'Whitney-Medium', 'PT Sans', Arial, sans-serif;;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.67;
+    text-align: left;
+    color: #8b7b7f;
+  }
+}

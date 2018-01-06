@@ -1,0 +1,39 @@
+.actions-percentage{
+  position:relative;
+  background-position: left bottom;
+}
+#mdown{
+  height:6px;
+  background: #e3e3e3;
+  position:absolute;
+  width:100%;
+  bottom:0px;
+  left:0px;
+}
+#mdown .hander{
+  height:6px;
+  background-color: rgb(254, 195, 32);
+  position:absolute;
+  width:200px;
+}
+
+.container-content,
+.host-advantages,
+.profit,
+.discount-and-amount,
+.partnership{
+  margin-left: 261px;
+}
+.host-advantages{
+  width: 1025px;
+  .advantages-col-sm{
+    margin-left: 52px;
+  }
+  .advantages-col-md{
+    width: 492px;
+    .item-6{
+      margin: 80px 0 0 74px;
+      width: 167px;
+    }
+  }
+}

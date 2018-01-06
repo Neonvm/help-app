@@ -1,0 +1,9 @@
+<div class="quantity-gb" id="plans" >
+    <div  *ngFor='let item of items' [ngClass]='{tb: item.bold}'>
+        <pre>{{item.title}}</pre>
+    </div>
+</div>
+<div class="row">
+    <div id="slider"></div>
+    <input type="hidden" id="hidden"/>
+</div>

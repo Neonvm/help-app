@@ -1,0 +1,443 @@
+    <div
+        class="page-content-shape"
+    ></div>
+
+    <div
+        class="page-content-shape-ruler"
+    ></div>
+
+    <div class="page-fixedcontent">
+        <div class="page-storage container-wmenu">
+            <div class="bg-corner"></div>
+        </div>
+    </div>
+
+    <div class="page-content">
+        <div class="container-wmenu">
+            <!-- container-content -->
+
+            <div class="container-content">
+                <div class="page-storage-header">
+                    <div class="page-storage-header-title">
+                        <h1>Спокойное доверие</h1>
+
+                        <h2>
+                            резервное копирование с
+
+                            <span class="backup_logo">
+                                is
+
+                                <span class="is-logo-icon">*</span>
+
+                                care
+                            </span>
+
+                            сродни доверию швейцарскому банку
+                        </h2>
+                    </div>
+                </div>
+            </div>
+
+            <!-- container-content-solid -->
+
+            <div class="container-content-solid page-storage-solid">
+                <div class="slider-description-storage">
+                    <div class="storage-title">Backup</div>
+
+                    <div class="storage-container">
+                        <div class="row">
+                            <div class="slider-text-first col-md-1">
+                                Используйте
+                            сервис резервного копирования данных – и вы никогда
+                            не будете
+                            волноваться о сохранности важной для вас информации.
+                            Что это означает? Что
+                            никакие непредвиденные ситуации не повлияют на
+                            работу вашего проекта в
+                            интернете: ни поломка оборудования, ни хакерские
+                            атаки, ни месть уволенного
+                            сотрудника, решившего удалить базу данных.
+                            </div>
+
+                            <div class="slider-text-second col-md-1">
+                                Специалисты
+                            Inferno Solutions разработали уникальную технологию
+
+                                <b>
+                                    is
+
+                                    <span class="accent-color">*</span>
+
+                                    care
+                                </b>
+
+                                ,
+                            гарантирующую надёжное хранение данных любых объёмов
+                            на отдельном кластере
+                            серверов. Данные копируются автоматически, а
+                            извлекаются просто и быстро.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- quantity -->
+
+                <hr
+                    class="hr-top hr-top-storage"
+                    id="tarifs"
+                >
+
+                <div>
+                    <div class="range">
+                        <div>
+                            <app-range-slider
+                                [items]="[
+                                {title:'10 Gb', id:1},
+                                {title:'20 Gb', id:2},
+                                {title:'30 Gb', id:3},
+                                {title:'50 Gb', id:4},
+                                {title:'10 Gb', id:1},
+                                {title:'20 Gb', id:2},
+                                {title:'30 Gb', id:3},
+                                {title:'50 Gb', id:4},
+                                {title:'10 Gb', id:1,bold:true},
+                                {title:'20 Gb', id:2,bold:true},
+                                {title:'30 Gb', id:3,bold:true},
+                                {title:'...', id:4}
+                           ]"        
+                                [default]="6"
+                            >
+                            </app-range-slider>                           
+                        </div>
+
+                        <div class="slider-content">
+                            <input
+                                type="hidden"
+                                id="s_pricing"
+                                value="monthly"
+                            >
+
+                            <input
+                                type="hidden"
+                                id="s_stor_traffic"
+                                value="10000"
+                            >
+
+                            <div class="texts">
+                                <div class="row">
+                                    <h1>
+                                        FTP, SFTP, SSH, (rsync, sshfs), SCP
+                                    </h1>
+
+                                    <p>ПРОТОКОЛЫ</p>
+                                </div>
+
+                                <div class="row second-row">
+                                    <div class="first-for_text">
+                                        <h1 class="infin">∞</h1>
+
+                                        <p>ТРАФИК</p>
+                                    </div>
+
+                                    <div class="last-for_text">
+                                        <h1>1000 Mbit</h1>
+
+                                        <p>КАНАЛ</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btns">
+                                <div class="block_btns">
+                                    <input
+                                        type="radio"
+                                        checked="checked"
+                                        name="raz"
+                                        value="monthly"
+                                        id="radio_btns"
+                                    >
+
+                                    <label for="radio_btns"></label>
+
+                                    <div
+                                        for="radio_btns_1"
+                                        class="text_btn"
+                                    >100.00 USD в месяц</div>
+                                </div>
+
+                                <div class="block_btns">
+                                    <input
+                                        type="radio"
+                                        name="raz"
+                                        id="radio_btns2"
+                                        value="quarterly"
+                                    >
+
+                                    <label for="radio_btns2"></label>
+
+                                    <div
+                                        for="radio_btns_2"
+                                        class="text_btn"
+                                    >300.00 USD в квартал</div>
+                                </div>
+
+                                <div class="block_btns">
+                                    <input
+                                        type="radio"
+                                        name="raz"
+                                        id="radio_btns3"
+                                        value="semiannually"
+                                    >
+
+                                    <label for="radio_btns3"></label>
+
+                                    <div
+                                        for="radio_btns_3"
+                                        class="text_btn"
+                                    >
+                                        500.00 USD пол года (скидка 17%)
+                                    </div>
+                                </div>
+
+                                <div class="block_btns">
+                                    <input
+                                        type="radio"
+                                        name="raz"
+                                        id="radio_btns4"
+                                        value="annually"
+                                    >
+
+                                    <label for="radio_btns4"></label>
+
+                                    <div
+                                        for="radio_btns_4"
+                                        class="text_btn"
+                                    >900.00 USD в год (скидка 25%)</div>
+                                </div>
+                            </div>
+
+                            <div class="buy">
+                                <img src="assets/img/group.png">
+                            </div>
+                        </div>
+
+                        <hr class="hr-bottom">
+                    </div>
+                </div>
+
+                <!-- L2 -->
+
+                <div
+                    class="advantages"
+                    id="desc"
+                >
+                    <div
+                        class="advantages-title"
+                        id="tarifs"
+                    >
+                        Преимущества Backup от
+                    Inferno Solutions
+                    </div>
+
+                    <div class="advantage-item copy">
+                        <div class="item-title">Само собой</div>
+
+                        <div class="description">
+                            Вам не нужно уделять этому время и
+                        внимание. Настройте автоматическое
+                        резервное копирование и все данные (или частично
+                        выбранные) будут регулярно
+                        дублироваться на наших серверах.Работает само собой!
+                        Каждый день, весь год.
+                        </div>
+                    </div>
+
+                    <div class="advantage-item order">
+                        <div class="item-title">Мы всё распутаем</div>
+
+                        <div class="description">
+                            Мы знаем, как это происходит:
+                        опасаясь, что критически важные данные
+                        могут быть утеряны навсегда,вы в панике создаёте
+                        несколько архивов в разных
+                        местах. Вам нужна путаница в копиях? С нами вы можете
+                        избавиться от лишних
+                        точек резервирования.
+                        </div>
+                    </div>
+
+                    <div class="advantage-item security">
+                        <div class="item-title recovery">
+                            Уверенность в
+                        безопасности
+                        </div>
+
+                        <div class="description">
+                            Конечно, вы переживаете за
+                        сохранность ваших данных. Расслабьтесь! Мы –
+                        живой пример того, что можно довериться одному
+                        хостинг-провайдеру, который
+                        сохранит информацию со 100%-ной надёжностью. Мы уверены
+                        в своём
+                        оборудовании, специалистах и схемах работы.
+                        </div>
+                    </div>
+
+                    <div class="advantage-item recovery">
+                        <div class="item-title">
+                            Мгновенное возрождение без потерь
+                        </div>
+
+                        <div class="description">
+                            Помните, как в компьютерных играх?
+                        Героя убивают, но он тут же
+                        возрождается, полон сил.Так и у нас: если по каким-то
+                        причинам (человеческий
+                        фактор, пожар, восстание роботов) данные стали
+                        недоступны – вы можете их
+                        моментально восстановить, благодаря технологии
+
+                            <b>
+                                is
+
+                                <span class="accent-color">*</span>
+
+                                care
+                            </b>
+
+                            .
+                        </div>
+                    </div>
+
+                    <div class="advantage-item access">
+                        <div class="item-title">Всего пара кликов</div>
+
+                        <div class="description">
+                            Услуга резервного копирования
+                        данных подразумевает не только надёжное
+                        хранение и быстрое восстановление информации. Сервис
+                        также позволяет иметь
+                        лёгкий доступ к сохраняемым данным по FTP. Нужно просто
+                        открыть учётную
+                        запись на нашем сайте и найти соответствующий раздел…
+                        </div>
+                    </div>
+
+                    <div class="advantage-item equipment">
+                        <div class="item-title">Будь открыт идеальному</div>
+
+                        <div class="description">
+                            Стремление к лучшему живёт в
+                        каждом. Мы выбрали идеальное оснащение,
+                        но сделали это не просто так. От качества машин зависит
+                        весь наш бизнес,
+                        в котором мы тоже лучшие. Сдавать позиции – не в наших
+                        планах.
+                        </div>
+                    </div>
+
+                    <div class="advantage-item support">
+                        <div class="item-title">
+                            Открытый бренд – закрытые вопросы
+                        </div>
+
+                        <div class="description">
+                            Любые вопросы, даже если они вам
+                        кажутся нелепыми, вы можете задавать
+                        в нашу техподдержку не стесняясь. Вы можете быть
+                        продвинутым специалистом
+                        или полным «чайником» – вас всё равно поймут и пошагово
+                        объяснят всё, что
+                        нужно. Мы решаем любую вашу проблему в любое время
+                        суток.
+                        </div>
+                    </div>
+
+                    <div class="advantage-item service">
+                        <div class="item-title">Почувствуйте нашу заботу</div>
+
+                        <div class="description">
+                            С Backup-сервисом от Inferno
+                        Solutions ваши данные останутся в
+                        сохранности, что бы ни произошло. Нашим клиентам не
+                        страшны хакерские
+                        атаки на их сайты или поломка информационных носителей,
+                        вирусы или
+                        техногенные бедствия. Наверное, только их данные
+                        останутся невредимы
+                        после апокалипсиса.
+                        </div>
+                    </div>
+
+                    <div class="advantage-item paymethod">
+                        <div class="item-title">Любые платёжные системы</div>
+
+                        <div class="description">
+                            Безналичный расчёт для юридических
+                        лиц, наличный расчёт, платёжные
+                        терминалы, денежные переводы и более 30 электронных
+                        платёжных систем.
+
+                            <a href="#">Полная свобода выбора!</a>
+                        </div>
+                    </div>
+
+                    <div class="advantage-item actions">
+                        <div class="item-title">Больше. Ещё больше!</div>
+
+                        <div clas="description">
+                            У нас вы всегда получите больше, чем
+                        выбрали. Каждый тариф
+                        сопровождается своими бонусами. Подписывайтесь на
+
+                            <a href="#">рассылку</a>
+
+                            и
+
+                            <a href="#">следите за открытыми акциями.</a>
+                        </div>
+                    </div>
+                </div>
+
+                <hr>
+                <!-- L2 -->
+
+                <div class="pdf">
+                    <div class="item-title">Скачайте PDF</div>
+
+                    <div class="description">
+                        Скачайте PDF файл со всеми тарифами,
+                    покажите начальнику,
+                    клиенту или вашим колллегам.
+                    </div>
+
+                    <a href="#">Скачать</a>
+
+                    <a href="#">
+                        <span>/</span>
+
+                        Отправить на email
+                    </a>
+
+                    <a href="#">
+                        <span>/</span>
+
+                        Расшарить в сетях
+                    </a>
+                </div>
+
+                <!-- ./ pdf -->
+                <hr>
+                <!-- L2 section 1 -->
+                <app-comments></app-comments>
+                <app-help-and-contacts></app-help-and-contacts>
+                <hr class="stick-bottom">
+                <section class="footer_hosting">
+                    <p>Inferno Solution © 2017 ⁄ #NT Solution LLP,
+                        Suite 4084, 10 Great Russel Streach, London &nbsp;
+                        ⁄<a href="#">Правила Сервиса</a> ⁄ ...</p>
+                </section>
+            </div>
+        </div>
+    </div>

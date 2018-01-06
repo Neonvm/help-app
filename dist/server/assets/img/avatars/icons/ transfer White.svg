@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>UI Icons / transfer White</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Icons-/-transfer-White">
+            <rect id="Rectangle-18" stroke="#FFFFFF" stroke-width="2" x="1" y="15" width="38" height="10" rx="2"></rect>
+            <rect id="Rectangle-18-Copy" stroke="#FFFFFF" stroke-width="2" x="1" y="29" width="38" height="10" rx="2"></rect>
+            <path d="M4,32 L19,32 L19,34 L4,34 L4,32 Z M21,32 L25,32 L25,34 L21,34 L21,32 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+            <path d="M4,18 L19,18 L19,20 L4,20 L4,18 Z M21,18 L25,18 L25,20 L21,20 L21,18 Z M1,2 L18.1,2 C18.5970563,2 19,2.40294373 19,2.9 L19,8.49 L17.71,7.2 C17.3132397,6.8602232 16.7218058,6.88306773 16.3524368,7.25243678 C15.9830677,7.62180583 15.9602232,8.21323972 16.3,8.61 L19.3,11.61 L19.35,11.66 C19.4989754,11.7907607 19.6834513,11.874297 19.88,11.9 L20.08,11.9 C20.3178706,11.881582 20.5413183,11.7787251 20.71,11.61 L23.71,8.61 C24.0993607,8.21787783 24.0971222,7.58436075 23.705,7.195 C23.3128778,6.80563925 22.6793607,6.80787783 22.29,7.2 L21,8.49 L21,2.9 C20.9945133,1.30065239 19.6993476,0.00548666111 18.1,0 L1,0 C0.44771525,0 0,0.44771525 0,1 C0,1.55228475 0.44771525,2 1,2 L1,2 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

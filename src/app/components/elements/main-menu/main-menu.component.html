@@ -1,0 +1,94 @@
+<div class="page-menu-wrapper page-menu-wrapper-home">
+    <div class="page-menus ">
+        <div class="page-menu" [ngClass]="{'hide': hide_menu}">
+            <ul>
+                <li><a (click)="goTo('vps', $event)" href="/vps">Хостинг</a>
+                    <ul [ngClass]="{'show': cutent_block == 'vps'}">
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'vps'}"
+                               (click)="goTo('vps', $event)" href="/vps">
+                                VPS
+                            </a>
+                        </li>
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'dedicated'}"
+                               (click)="goTo('dedicated', $event)"
+                               href="/dedicated">Dedicated</a>
+                        </li>
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'reselling'}"
+                               (click)="goTo('reselling', $event)"
+                               href="/reselling">Реселлинг</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a (click)="goTo('cms-install', $event)"
+                       href="/cms-install">
+                        Решения
+                    </a>
+                    <ul [ngClass]="{'show': cutent_block == 'cms-install'}">
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'cms-install'}"
+                               (click)="goTo('cms-install', $event)"
+                               href="/cms-install">
+                                Установка CMS
+                            </a>
+                        </li>
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'web'}"
+                               (click)="goTo('web', $event)" href="/web">
+                                Веб разработка
+                            </a>
+                        </li>
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'task'}"
+                               (click)="goTo('task', $event)" href="/task">
+                                Таск менеджмент
+                            </a>
+                        </li>
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'comm'}"
+                               (click)="goTo('comm', $event)" href="/comm">
+                                Коммуникации
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a [ngClass]="{'active': cutent_item == 'storage'}"
+                       (click)="goTo('storage', $event)" href="/storage">
+                        Хранение
+                    </a>
+                </li>
+                <li>
+                    <a (click)="goTo('company', $event)" href="/company">
+                        IS<span class="accent-color">*</span>Компания
+                    </a>
+                    <ul [ngClass]="{'show': cutent_block == 'company'}">
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'company'}"
+                               (click)="goTo('company', $event)"
+                               href="/company">
+                                О компании
+                            </a>
+                        </li>
+                        <li>
+                            <a [ngClass]="{'active': cutent_item == 'blog'}"
+                               (click)="goTo('blog', $event)" href="/blog">
+                                Новости
+                            </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="/support">
+                                Поддержка
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+
+            </ul>
+        </div>
+        <div class="page-menu page-menu-secondary"></div>
+    </div>
+</div>

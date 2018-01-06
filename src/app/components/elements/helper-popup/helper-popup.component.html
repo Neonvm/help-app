@@ -1,0 +1,266 @@
+<div class="page-helper" [ngClass]="{'opened':appStatus.helper_is_open}">
+    <div
+        class="page-helper-close"
+        (click)="appStatus.onCloseHelper()"
+    ></div>
+
+    <div class="page-helper-content">
+        <div class="page-helper-title">Быстрый заказ</div>
+
+        <div class="select-plan">
+            <span class="want">Я хочу</span>
+
+            <div
+                title="Выдел сервер"
+                name="bsel-server-type"
+                id="bsel-server-type"
+            >
+                <div class="selectgg virtgg mselect mselect--black">
+                    <select
+                        class="mselect__select"
+                        id="bsel-server-type-select"
+                        value="vps"
+                        name="bsel-server-type-select"
+                    >
+                        <option value="vps">Виртуальный сервер</option>
+
+                        <option value="dedicated">Выделенный сервер</option>
+                    </select>
+                </div>
+            </div>
+
+            <div
+                title="Страна vps"
+                name="bsel-vps-country"
+                id="bsel-vps-country"
+                style="display: inline;"
+            >
+                <div class="selectgg virtgg mselect mselect--black">
+                    <select
+                        class="mselect__select"
+                        id="bsel-vps-country-select"
+                        value="none"
+                        name="bsel-vps-country-select"
+                    >
+                        <option value="none">Выберите страну</option>
+
+                        <option value="de">Германия</option>
+
+                        <option value="nl">Нидерланды</option>
+
+                        <option value="us">США</option>
+
+                        <option value="ca">Канада</option>
+
+                        <option value="ua">Украина</option>
+
+                        <option value="ru">Россия</option>
+
+                        <option value="se">Швеция</option>
+
+                        <option value="pl">Польша</option>
+
+                        <option value="ee">Эстония</option>
+                    </select>
+                </div>
+            </div>
+
+            <div
+                title="Тип виртуализации vps"
+                name="bsel-vps-vtype"
+                id="bsel-vps-vtype"
+                style="display: inline;"
+            >
+                <div class="selectgg virtgg mselect mselect--black">
+                    <select
+                        class="mselect__select"
+                        id="bsel-vps-vtype-select"
+                        value="none"
+                        name="bsel-vps-vtype-select"
+                    >
+                        <option value="none">Тип виртуализации</option>
+
+                        <option value="xen">Виртуализация XEN</option>
+
+                        <option value="kvm">Виртуализация KVM</option>
+                    </select>
+                </div>
+            </div>
+
+            <div
+                title="Тип диска vps"
+                name="bsel-vps-disktype"
+                id="bsel-vps-disktype"
+                style="display: inline;"
+            >
+                <div class="selectgg virtgg mselect mselect--black">
+                    <select
+                        class="mselect__select"
+                        id="bsel-vps-disktype-select"
+                        value="none"
+                        name="bsel-vps-disktype-select"
+                    >
+                        <option value="none">Тип диска</option>
+
+                        <option value="sata">Диск HDD</option>
+
+                        <option value="ssd">Диск SSD</option>
+                    </select>
+                </div>
+            </div>
+
+            <div
+                title="Страна dedicated"
+                name="bsel-dedicated-country"
+                id="bsel-dedicated-country"
+                style="display: none;"
+            >
+                <div class="selectgg virtgg mselect mselect--black">
+                    <select
+                        class="mselect__select"
+                        id="bsel-dedicated-country-select"
+                        value="none"
+                        name="bsel-dedicated-country-select"
+                    >
+                        <option value="none">Выберите страну</option>
+
+                        <option value="de">Германия</option>
+
+                        <option value="ua">Украина</option>
+
+                        <option value="nl">Нидерланды</option>
+
+                        <option value="us">США</option>
+                    </select>
+                </div>
+            </div>
+
+            <span>....</span>
+
+            <div class="helper-search-box">
+                <form
+                    id="helper-search-form"
+                    name="helper-search-form"
+                >
+                    <input
+                        class="helper-search"
+                        type="text"
+                        name="search"
+                        placeholder="Поиск"
+                        id="bsel-filter-search"
+                    >
+                    <a
+                        class="submit"
+                        href="javascript:void(0);"
+                    ></a>
+                </form>
+            </div>
+            <div class="clear"></div>
+            <div class="buy-plans">
+                <div
+                    name="boxes-products-info"
+                    id="vh_container"
+                    class="plans-wrapper"
+                >
+                    <div
+                        id="vh_content"
+                        style="transform: translate3d(0px, 0px, 0px) scale(1);"
+                    >
+                        <div *ngFor="let item of [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" class="single-plan-wrapper">
+                            <div class="single-plan">
+                                <div class="marker"></div>
+                                <div class="title">Lite - Linux</div>
+                                <hr>
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <th>Страна</th>
+                                            <td>
+                                                <div r="Германия">
+                                                    Германия
+
+                                                    <span></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Платформа</th>
+
+                                            <td>
+                                                <div r="XEN">
+                                                    XEN
+
+                                                    <span></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Процессор</th>
+
+                                            <td>
+                                                <div r="до 2.40 GHz">
+                                                    до 2.40 GHz
+
+                                                    <span></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>ОЗУ</th>
+
+                                            <td>
+                                                <div r="256 Mb">
+                                                    256 Mb
+
+                                                    <span></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Диск</th>
+
+                                            <td>
+                                                <div r="10 Gb">
+                                                    10 Gb
+
+                                                    <span></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>IP адреc</th>
+
+                                            <td>
+                                                <div r="1">
+                                                    1
+
+                                                    <span></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th>Цена</th>
+                                            <td>
+                                                <div r="5.00$ в мес.">
+                                                    5.00$ в мес.
+
+                                                    <span></span>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="#" class="btn yellow-btn" >Выбрать <b>ТАРИФ</b></a>
+                                <a href="#" class="btn grey-btn" >Выбрать <b>ТАРИФ</b></a>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,21 @@
+
+:host(.app-combo-select-slider){ 
+    #plans{
+        width: 280px;
+        margin-left: 10px;
+        margin-right: 10px;
+        div{
+            pre{
+                font-size: 16px;
+            }
+        }
+    }
+    .row{
+        width:280px!important;
+        background-color: #FFFFFF!important;
+        #slider{
+          width:280px!important;
+          margin-left: 10px;
+        }
+      } 
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>UI Icons / DDOS Protection 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Icons-/-DDOS-Protection-2">
+            <path d="M8.07039407,5.90421724 C8.07039407,5.90421724 24.1599261,0.904660697 26.1576409,0.648472595 C41.7585295,18.6323939 35.0790354,32.6702179 35.0790354,32.6702179 C35.0790354,32.6702179 23.4334844,39.7451247 3.06670295,23.7394105 C5.4127921,14.4092608 8.07039407,5.90421724 8.07039407,5.90421724 Z" id="Rectangle" fill="#FFFFFF" transform="translate(19.783538, 17.438203) rotate(-315.000000) translate(-19.783538, -17.438203) "></path>
+            <path d="M20,39 C4.85,32.12 4,10 4,10 L20,1 L36,10 C36,10 35.25,32.12 20,39 Z" id="Shape" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M20,33 C9.584375,28.2926316 9,13.1578947 9,13.1578947 L20,7 L31,13.1578947 C31,13.1578947 30.484375,28.2926316 20,33 Z" id="Shape-Copy" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle-path" stroke="#231F20" stroke-width="2" fill="#FCC238" stroke-linecap="round" stroke-linejoin="round" x="1" y="23" width="38" height="10" rx="2"></rect>
+            <rect id="Rectangle-path" fill="#231F20" fill-rule="nonzero" x="4" y="26" width="15" height="2"></rect>
+            <rect id="Rectangle-path" fill="#231F20" fill-rule="nonzero" x="21" y="26" width="4" height="2"></rect>
+        </g>
+    </g>
+</svg>

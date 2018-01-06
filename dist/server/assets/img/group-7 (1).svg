@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="81px" viewBox="0 0 161 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>F319FBFA-A363-465E-87B9-E3A7E8C01E69</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <style type="text/css">
+            <![CDATA[
+                @font-face {
+                font-family: Whitney-Bold;
+                src: url('../fonts/Whitney-Semibold_gdi.eot'),
+                url('../fonts/Whitney-Semibold_gdi.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/Whitney-Semibold_gdi.woff') format('woff'),
+                url('../fonts/Whitney-Semibold_gdi.ttf') format('truetype'),
+                url('../fonts/Whitney-Semibold_gdi.svg#Whitney-Semibold') format('svg');
+                }
+                @font-face {
+                 font-family:'Whitney-Medium';
+                 src: url('../fonts/Whitney-Medium_gdi.eot'),
+                 url('../fonts/Whitney-Medium_gdi.eot?#iefix') format('embedded-opentype'),
+                 url('../fonts/Whitney-Medium_gdi.woff') format('woff'),
+                 url('../fonts/Whitney-Medium_gdi.ttf') format('truetype'),
+                 url('../fonts/Whitney-Medium_gdi.svg#Whitney-Medium') format('svg');
+                }
+            ]]>
+        </style>
+        <polygon id="path-1" points="0 0 149.998122 0 160.099998 20 149.998122 40 0 40"></polygon>
+        <filter x="-6.2%" y="-25.0%" width="112.5%" height="150.0%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="20" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.15 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="VPS" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="VPS-tarif" transform="translate(-918.000000, -146.000000)">
+            <g id="Group-7" transform="translate(918.000000, 146.000000)">
+                <g style="cursor:pointer" id="Button-/-Arrow-/-Normal-160-Word">
+                    <g id="Rectangle-11-Copy">
+                        <use fill="#FFC11E" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    </g>
+                    <g id="Icons-/-Cart" transform="translate(103.000000, 11.000000)">
+                        <circle id="Oval" fill="#231F20" fill-rule="evenodd" cx="3.5" cy="14.5" r="1.5"></circle>
+                        <circle id="Ellipse_1_copy" fill="#231F20" fill-rule="evenodd" cx="10.5" cy="14.5" r="1.5"></circle>
+                        <polyline id="Path-2" stroke="#231F20" stroke-width="2" stroke-linecap="round" points="7 5 2 5 3 10 11 10 13 2 17 2"></polyline>
+                    </g>
+                    <text id="B" font-family='Whitney-Bold' font-size="16" font-weight="500" line-spacing="12" fill="#231F20">
+                        <tspan x="13" y="26">ЗАКАЗАТЬ</tspan>
+                    </text>
+                </g>
+                <text id="Как-изменить-тариф?" font-family="Whitney-Medium" font-size="16" font-weight="400" line-spacing="20" fill="#9B9B9B">
+                    <tspan x="0" y="73">Как изменить тариф?</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>

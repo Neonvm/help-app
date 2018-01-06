@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>UI Icons / Support</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Icons-/-Support">
+            <path d="M36.0149694,15 L36.9607889,15 C38.0870141,15 39,15.8970262 39,17.0049466 L39,36.9950534 C39,38.1023548 38.0812815,39 36.9596804,39 L2.32958814,39 C1.20275074,39 0.692828277,38.2014771 1.19101963,37.2157067 L11.5167042,16.7842933 C12.0147276,15.7988553 13.3310691,15 14.4474785,15 L16.0673828,15" id="Rectangle-2" stroke="#231F20" stroke-width="2" fill="#FCC238" stroke-linecap="round"></path>
+            <circle id="Oval-6" fill="#FFFFFF" cx="26" cy="14" r="5"></circle>
+            <path d="M18,26 C18,23.790861 19.7888304,22 21.9962027,22 L30.0037973,22 C32.2108391,22 34,23.7953562 34,26 L34,30 L18,30 L18,26 Z" id="Rectangle" fill="#FFFFFF"></path>
+            <circle id="Oval" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" cx="26" cy="14" r="5"></circle>
+            <path d="M30.09,22 L22,22 C19.790861,22 18,23.790861 18,26 L18,29 C18,29 18,29 18,29.07 C20.4760881,30.3335948 23.220215,30.9818948 26,30.96 C28.779785,30.9818948 31.5239119,30.3335948 34,29.07 C34,29.07 34,29.07 34,29 L34,26 C34.0005505,23.8255362 32.2639134,22.0489254 30.09,22 L30.09,22 Z" id="Shape" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="40px" height="40px" viewBox="0 0 40 40" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>UI Icons / Upload</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="UI-Icons-/-Upload">
+            <path d="M27,24 L30.95,24 C33.1062431,23.9788868 35.1657728,23.1020203 36.6754631,21.5623237 C38.1851533,20.0226272 39.021322,17.946241 39,15.79 C39.0563586,13.6510695 38.2535378,11.5787005 36.770925,10.0359563 C35.2883122,8.49321224 33.2494807,7.60867814 31.11,7.58 L30.36,7.58 C28.4654003,3.5715676 24.4336126,1.01083761 20,1 C14.7088827,1.04785412 10.1800856,4.80792545 9.16,10 C8.75120123,9.92219787 8.33613157,9.88202984 7.92,9.88 C4.03159941,9.99960209 0.954572915,13.2100257 1,17.1 C0.951190973,18.9201953 1.64310714,20.6822815 2.9173795,21.9829441 C4.19165185,23.2836068 5.93918667,24.0114927 7.76,24 L13,24" id="Shape" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Shape" stroke="#231F20" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="20 13 20 25 23 22 20 25 17 22"></polyline>
+            <rect id="Rectangle-path" stroke="#231F20" stroke-width="2" fill="#FCC238" stroke-linecap="round" stroke-linejoin="round" x="1" y="29" width="38" height="10" rx="2"></rect>
+            <rect id="Rectangle-path" fill="#231F20" fill-rule="nonzero" x="4" y="32" width="15" height="2"></rect>
+            <rect id="Rectangle-path" fill="#231F20" fill-rule="nonzero" x="21" y="32" width="4" height="2"></rect>
+        </g>
+    </g>
+</svg>

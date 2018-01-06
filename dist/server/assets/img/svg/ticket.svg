@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="12px" viewBox="0 0 16 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Message Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Support" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-970.000000, -277.000000)" id="Group-3">
+            <g transform="translate(910.000000, 147.000000)">
+                <g id="Icons-/-Ticket" transform="translate(60.000000, 128.000000)">
+                    <rect id="Rectangle" stroke="#231F20" stroke-width="1.5" x="0.75" y="2.75" width="14.5" height="10.5" rx="2"></rect>
+                    <rect id="Rectangle-7-Copy" fill="#231F20" fill-rule="evenodd" x="3" y="5" width="10" height="2"></rect>
+                    <rect id="Rectangle-7-Copy-2" fill="#231F20" fill-rule="evenodd" x="3" y="8" width="6" height="2"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

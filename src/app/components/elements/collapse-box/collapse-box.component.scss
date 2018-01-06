@@ -1,0 +1,62 @@
+:host(.vps-page){
+    .row_free-testing{
+        width: 937px;
+        margin-left: 42px;
+        border: dashed 2px #aaa;
+    }
+    .for-flex{
+        width: 928px;
+        input{
+            display: none;
+        }
+    }
+    .free-testing-text{
+        margin-left: 18px;
+    }
+    .dashed-text{
+        width: auto;
+    }
+}
+
+.row_free-testing .for-flex {
+    background-color: #f7f7f7;
+    z-index: 123;
+  }
+  
+  .row_free-testing .dashed-text {
+    transition: 0.3s;
+  }
+  .showing-text{
+    margin-top: -100%;
+    transition: 0.3s;
+  }
+
+  .showBlock .showing-text{
+    opacity: 1;
+    margin-top: 0;
+    visibility: visible;
+    transition: 0.3s;
+  }
+.row_free-testing{
+    overflow: hidden;
+    margin-top: 15px;
+    width: fit-content;
+    flex-direction: column;
+    border: dashed 1px #aaa;
+    margin-left: 35px;
+    display: -webkit-inline-box;
+  }
+  .span:after{
+      content: '[ ? ]';
+      color: #7a9bba;
+      font-family: 'Open Sans', 'PT Sans', Arial, sans-serif;
+      font-size: 14px;
+  }
+
+  .spanClose:after{
+    content: '×';
+    color: #979797;
+    font-family: 'Open Sans';
+    font-size: 30px;
+    cursor: pointer;
+  }
